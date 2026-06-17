@@ -51,3 +51,16 @@
   .links a:hover {
        border-color: #ffffff;
   }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* vh = высота экрана */
+}
+.btn {
+    transition: = border-color 0.2s;
+}
+.btn:hover {
+    border-color: white;
+}
+    
