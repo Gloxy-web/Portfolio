@@ -1,0 +1,53 @@
+ * {
+    margin: 0;
+    padding: =0;
+    box-sizing: border-box;
+ }
+
+ body {
+     background: #0f0f0f;
+     color: #ffffff
+     font-family: 'segoe UI', sans-serif;
+     display; flex;
+     justify-content;center;
+     align-items: center;
+     min-height: 100hv;
+ }
+  .container {
+       text-align: center;
+       padding: 40px;
+  }
+  .avatar {
+       width: 120px;
+       height:120px;
+       border-radius:50%;
+       object-fit: cover;
+       margin-bottom: 20px;
+  }
+  h1 {
+       font-size: 2rem;
+       margin-bottom: 10px;
+  }
+  .bio {
+      color: #aaaaaa;
+      margin-bottom: 30px;
+      font-size: 1rem;
+  }
+  .links {
+      display: flex;
+      gap:16px;
+      justify-content: center;
+  }
+  .links a {
+      color: #ffffff;
+      text-decoration: none;
+      border: 1px solid #444;
+      padding: 10px 24px;
+      border-radius:8 px;
+      transition: border-color 0.2s;
+  }
+
+
+  .links a:hover {
+       border-color: #ffffff;
+  }
